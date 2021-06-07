@@ -204,6 +204,11 @@ footer{
     background-color: rgba(63, 63, 63, 0.925);
 }
 
+.footer_links a{
+
+  color: #ffffff;
+}
+
 @media (pointer:coarse) and (hover:none){
   #logo_img{
     padding-bottom: 40px !important;
