@@ -16,7 +16,23 @@ header{
     width: 100%;
     z-index: 0;
 }
+
+h1{
+  color: #ffffff;
   
+}
+  
+#main_title{
+  color: #B10964;
+}
+
+.btn{
+   background-color: #B10964;
+}
+
+a{
+  color: #B10964;
+}
   .crossfade > figure:nth-child(1) { background-image: url('../Images/George.jpeg'); }
   
   .crossfade > figure:nth-child(2) {
@@ -81,12 +97,27 @@ header{
 
     position: absolute;
     left: 35%;
-    top: 40%;
+    top: 50%;
     color: white;
     text-shadow: 3px 3px 5px #161616;
     z-index: 2;
 }
 
+#Cathedral_bg{
+  background-image: url(../Images/bg3.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position:100% ;
+  background-repeat: no-repeat;
+}
+
+#Kelvingrove_bg{
+  background-image: url(../Images/pc2.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position:100% ;
+  background-repeat: no-repeat;
+}
 
 .place_image{
     background-image: url(../Images/bg3.jpg);
