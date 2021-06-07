@@ -5,8 +5,8 @@ header{
 
 #logo_img{
  
-  max-width:300px ;
-  max-height:300px ;
+  max-width:300px !important;
+  max-height:300px !important ;
 }
 
 .crossfade > figure {
@@ -96,7 +96,7 @@ h1{
     font-size: 120%;
     
     background-color: rgba(0, 0, 0, 0.226);
-    opacity:.8 ;
+    opacity:.9 ;
     z-index: 3;
 }
 
@@ -204,9 +204,12 @@ footer{
 
 @media (pointer:coarse) and (hover:none){
   #logo_img{
-        width: 50px;
-        height: 50px;
+    padding-bottom: 40px !important;
+        width: 200px !important;
+        height: 200px !important;
   
   }
+
+  
 
 }
