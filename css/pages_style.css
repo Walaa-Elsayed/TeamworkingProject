@@ -5,8 +5,9 @@ header{
 
 #logo_img{
  
-  max-width:300px !important;
-  max-height:300px !important ;
+  max-width:300px ;
+  max-height:320px  ;
+  padding-bottom: 20px ;
 }
 
 .crossfade > figure {
@@ -210,12 +211,34 @@ footer{
 
 @media (pointer:coarse) and (hover:none){
   #logo_img{
-    padding-bottom: 40px !important;
-        width: 200px !important;
-        height: 200px !important;
+    padding-bottom: 20%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.place_image , .place1_image , .place2_image
+.place3_image , .place3_image , .place5_image{
+   height: 50vh;
+}
+
+ 
+  
+
+}
+
+@media screen and (max-width: 800px) {
+  #logo_img{
+        padding-bottom: 20%;
+        width: 200px;
+        height: 200px;
   
   }
 
-  
+  .place_image , .place1_image , .place2_image
+  .place3_image , .place3_image , .place5_image{
+       height: 60vh;
+  }
 
+  
 }
