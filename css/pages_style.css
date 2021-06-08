@@ -227,6 +227,18 @@ footer{
 
 }
 
+
+
+@media screen and (max-width: 1000px) {
+
+  #header_text{ 
+
+    padding-right: 15%;
+  }
+ 
+}
+
+
 @media screen and (max-width: 800px) {
   #logo_img{
         padding-bottom: 20%;
@@ -240,13 +252,21 @@ footer{
        height: 60vh;
   }
 
+
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+
   .navbar a{
     color: #030303;
     
   }
 
   #navbarNav{
-    background-color: #e6e7e8c4;
+    background-color: #e6e7e8a4;
     padding-left: 10%;
   }
  
