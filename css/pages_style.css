@@ -240,5 +240,14 @@ footer{
        height: 60vh;
   }
 
-  
+  .navbar a{
+    color: #030303;
+    
+  }
+
+  #navbarNav{
+    background-color: #e6e7e8c4;
+    padding-left: 10%;
+  }
+ 
 }
