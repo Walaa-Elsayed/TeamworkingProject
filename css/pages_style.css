@@ -135,7 +135,8 @@ a{
 .place_image{
     background-image: url(../Images/bg3.jpg);
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    background-size: 90%;
     background-position:center ;
     background-repeat: no-repeat;
 
@@ -144,7 +145,7 @@ a{
 .place2_image{
   background-image: url(../Images/Kelvin.jpeg);
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: 90%;
   background-position:center ;
   background-repeat: no-repeat;
@@ -154,7 +155,7 @@ a{
 .place3_image{
   background-image: url(../Images/Pollock.jpeg);
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: 90%;
   background-position:center ;
   background-repeat: no-repeat;
@@ -164,7 +165,7 @@ a{
 .place4_image{
   background-image: url(../Images/Mural.jpeg);
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: 90%;
   background-position:center ;
   background-repeat: no-repeat;
@@ -185,9 +186,7 @@ a{
     height: 50vh;
 }
 
-.text_content{
-    text-shadow: 2px 2px 3px #5a5959;
-}
+
 
 .p_txt{
     font-size: 120%;
